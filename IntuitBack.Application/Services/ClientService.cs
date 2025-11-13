@@ -17,6 +17,7 @@ public class ClienteService : IClienteService
         await _context.Clientes.Where(e => e.Id == id && e.Eliminado == false).FirstOrDefaultAsync();
 
     public async Task<IEnumerable<Cliente>> SearchAsync(string term)
+    //esta solución está un poco overengineered pero se me ocurrió y quise probar cómo salía
     {
         if (string.IsNullOrWhiteSpace(term))
             return Enumerable.Empty<Cliente>();
@@ -105,3 +106,4 @@ public class ClienteService : IClienteService
         return entidadesActualizadas == 1;
     }
 }
+
