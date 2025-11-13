@@ -1,0 +1,6 @@
+@IntuitBack.Api_HostAddress = http://localhost:5028
+
+GET {{IntuitBack.Api_HostAddress}}/swagger/index.html/
+Accept: application/json
+
+###
