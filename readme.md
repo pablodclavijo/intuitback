@@ -23,6 +23,8 @@ API REST desarrollada en **ASP.NET Core 8** con arquitectura por capas (Domain, 
 - ASP.NET Core Web API
 
 - Mapster
+
+- Swagger para documentación y pruebas
   
 
 ---
@@ -141,3 +143,8 @@ En IntuitBack.Api/appsettings.json:
  - #### Servicio en segundo plano que limpia logs mayores a un año.
  - #### Data annotations en los dtos
 
+
+## Consideraciones
+
+-#### se deshabilitó el CORS
+-#### no se implementó autenticación
