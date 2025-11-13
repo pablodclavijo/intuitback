@@ -139,3 +139,5 @@ En IntuitBack.Api/appsettings.json:
  - #### Logs en base de datos registrando acciones y excepciones lanzadas
  - #### Middleware de manejo de errores
  - #### Servicio en segundo plano que limpia logs mayores a un año.
+ - #### Data annotations en los dtos
+
